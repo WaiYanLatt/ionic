@@ -97,3 +97,34 @@ dataTheme === "dark" ? toDark() : toLight();
 //     toLight()
 // }
 
+// Navbar Fixed and Animation
+const fixedNav = document.getElementById("fixedNav");
+var waypoint = new Waypoint({
+  element: document.getElementById("main"),
+  handler: function (direction) {
+    if (direction === "down") {
+      fixedNav.classList.add(
+        "fixed",
+        "top-0",
+        "animate__fadeInDown",
+        "shadow-lg",
+        "w-full",
+        "left-0",
+        "opacity-95"
+      );
+      fixedNav.classList.remove("relative");
+    } else {
+      fixedNav.classList.remove(
+        "fixed",
+        "top-0",
+        "animate__fadeInDown",
+        "shadow-lg",
+        "w-full",
+        "left-0",
+        "opacity-95"
+      );
+      fixedNav.classList.add("relative");
+    }
+  },
+  offset: "20%",
+});
