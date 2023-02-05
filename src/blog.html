@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="/assest/css/cus.css" />
   </head>
   <body>
-    <!--Navbar S -->
+    <!--Navbar -->
     <nav class="">
       <!-- firstNav -->
       <div
@@ -34,7 +34,7 @@
         <div>
           <ul class="flex items-center space-x-3">
             <li
-              class="text-md font-bold text-slate-500 cursor-pointer hover:text-slate-300 dark:hover:text-violet-500  dark:text-white duration-300"
+              class="text-md font-bold text-slate-500 cursor-pointer hover:text-slate-300 dark:hover:text-violet-500 dark:text-white duration-300"
             >
               Support
             </li>
@@ -53,36 +53,38 @@
       </div>
       <!-- secondNav -->
       <div
-        class="relative py-5 flex justify-between items-center w-full bg-white z-30 h-20 px-3 md:px-5 lg:px-32 animate__animated duration-300"
+        class="relative py-5 flex justify-between items-center w-full bg-white shadow-lg dark:shadow-blue-500 dark:bg-slate-900 z-30 h-16 px-3 md:px-5 lg:px-32 animate__animated duration-300"
         id="fixedNav"
       >
         <h3
-          class="text-xl font-bold cursor-pointer hover:text-slate-500/90 duration-300"
+          class="text-xl font-bold cursor-pointer dark:text-white dark:hover:text-violet-500 hover:text-slate-500/90 duration-300"
         >
           Blog
         </h3>
         <div class="hidden md:flex space-x-8 items-center">
           <div
-            class="p-2 hover:bg-slate-50 duration-300 rounded-full w-10 h-10 flex justify-center items-center cursor-pointer"
+            class="p-2 hover:bg-slate-50 dark:hover:bg-slate-300 duration-300 rounded-full w-10 h-10 flex justify-center items-center cursor-pointer"
           >
-            <i class="fa-solid fa-magnifying-glass text-xs text-slate-500"></i>
+            <i
+              class="fa-solid fa-magnifying-glass text-xs text-slate-500 dark:text-white dark:hover:text-slate-900"
+            ></i>
           </div>
           <div class="relative">
             <button
               id="dropdownButton"
               data-dropdown-toggle="dropdownDivider"
-              class="text-slate-500 font-bold text-md inline-flex items-center"
+              class="text-slate-500 dark:text-white font-bold text-md inline-flex items-center"
               type="button"
               aria-hidden="true"
             >
               <span>Categories</span
               ><i
-                class="fa-solid fa-chevron-down text-[9px] ml-2 text-slate-500 font-bold"
+                class="fa-solid fa-chevron-down text-[9px] ml-2 text-slate-500 dark:text-white font-bold"
               ></i>
             </button>
             <!-- Dropdown menu -->
             <div
-              class="hidden absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+              class="hidden absolute right-0 z-10 mt-2 w-56 origin-top-right dark:shadow-blue-500 rounded-md bg-white dark:bg-slate-800 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
               role="menu "
               aria-orientation="vertical"
               aria-labelledby="menu-button"
@@ -92,7 +94,7 @@
               <div class="py-1" role="none">
                 <a
                   href="#"
-                  class="text-slate-500 block px-4 py-2 text-sm font-semibold"
+                  class="text-slate-500 dark:text-white block px-4 py-2 text-sm font-semibold"
                   role="menuitem"
                   tabindex="-1"
                   id="menu-item-0 "
@@ -100,7 +102,7 @@
                 >
                 <a
                   href="#"
-                  class="text-slate-500 block px-4 py-2 text-sm font-semibold"
+                  class="text-slate-500 dark:text-white block px-4 py-2 text-sm font-semibold"
                   role="menuitem"
                   tabindex="-1"
                   id="menu-item-1 "
@@ -108,7 +110,7 @@
                 >
                 <a
                   href="#"
-                  class="text-slate-500 block px-4 py-2 text-sm font-semibold"
+                  class="text-slate-500 dark:text-white block px-4 py-2 text-sm font-semibold"
                   role="menuitem"
                   tabindex="-1"
                   id="menu-item-2"
@@ -116,7 +118,7 @@
                 >
                 <a
                   href="#"
-                  class="text-slate-500 block px-4 py-2 text-sm font-semibold"
+                  class="text-slate-500 dark:text-white block px-4 py-2 text-sm font-semibold"
                   role="menuitem"
                   tabindex="-1"
                   id="menu-item-0 "
@@ -124,7 +126,7 @@
                 >
                 <a
                   href="#"
-                  class="text-slate-500 block px-4 py-2 text-sm font-semibold"
+                  class="text-slate-500 dark:text-white block px-4 py-2 text-sm font-semibold"
                   role="menuitem"
                   tabindex="-1"
                   id="menu-item-1 "
@@ -132,7 +134,7 @@
                 >
                 <a
                   href="#"
-                  class="text-slate-500 block px-4 py-2 text-sm font-semibold"
+                  class="text-slate-500 dark:text-white block px-4 py-2 text-sm font-semibold"
                   role="menuitem"
                   tabindex="-1"
                   id="menu-item-2"
@@ -140,7 +142,7 @@
                 >
                 <a
                   href="#"
-                  class="text-slate-500 block px-4 py-2 text-sm font-semibold"
+                  class="text-slate-500 dark:text-white block px-4 py-2 text-sm font-semibold"
                   role="menuitem"
                   tabindex="-1"
                   id="menu-item-0 "
@@ -148,7 +150,7 @@
                 >
                 <a
                   href="#"
-                  class="text-slate-500 block px-4 py-2 text-sm font-semibold"
+                  class="text-slate-500 dark:text-white block px-4 py-2 text-sm font-semibold"
                   role="menuitem"
                   tabindex="-1"
                   id="menu-item-1 "
@@ -161,18 +163,18 @@
             <button
               id="dropdownButton1"
               data-dropdown-toggle="dropdownDivider"
-              class="text-slate-500 font-bold text-md inline-flex items-center"
+              class="text-slate-500 dark:text-white font-bold text-md inline-flex items-center"
               type="button"
               aria-hidden="true"
             >
               <span>Products</span
               ><i
-                class="fa-solid fa-chevron-down text-[9px] ml-2 text-slate-500 font-semibold"
+                class="fa-solid fa-chevron-down text-[9px] ml-2 text-slate-500 dark:text-white font-semibold"
               ></i>
             </button>
             <!-- Dropdown menu -->
             <div
-              class="hidden absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+              class="hidden absolute right-0 z-10 mt-2 w-56 origin-top-right dark:shadow-blue-500 rounded-md bg-white dark:bg-slate-800 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
               role="menu "
               aria-orientation="vertical"
               aria-labelledby="menu-button"
@@ -183,7 +185,7 @@
                 <!-- Active: "bg-gray-100 text-gray-900 ", Not Active: "text-slate-500 " -->
                 <a
                   href="#"
-                  class="text-slate-500 block px-4 py-2 text-sm font-semibold"
+                  class="text-slate-500 block dark:text-white px-4 py-2 text-sm font-semibold"
                   role="menuitem"
                   tabindex="-1"
                   id="menu-item-0 "
@@ -191,7 +193,7 @@
                 >
                 <a
                   href="#"
-                  class="text-slate-500 block px-4 py-2 text-sm font-semibold"
+                  class="text-slate-500 block dark:text-white px-4 py-2 text-sm font-semibold"
                   role="menuitem"
                   tabindex="-1"
                   id="menu-item-1 "
@@ -199,7 +201,7 @@
                 >
                 <a
                   href="#"
-                  class="text-slate-500 block px-4 py-2 text-sm font-semibold"
+                  class="text-slate-500 block dark:text-white px-4 py-2 text-sm font-semibold"
                   role="menuitem"
                   tabindex="-1"
                   id="menu-item-2"
@@ -207,7 +209,7 @@
                 >
                 <a
                   href="#"
-                  class="text-slate-500 block px-4 py-2 text-sm font-semibold"
+                  class="text-slate-500 block dark:text-white px-4 py-2 text-sm font-semibold"
                   role="menuitem"
                   tabindex="-1"
                   id="menu-item-1 "
@@ -215,7 +217,7 @@
                 >
                 <a
                   href="#"
-                  class="text-slate-500 block px-4 py-2 text-sm font-semibold"
+                  class="text-slate-500 block dark:text-white px-4 py-2 text-sm font-semibold"
                   role="menuitem"
                   tabindex="-1"
                   id="menu-item-2"
@@ -228,74 +230,24 @@
             <button
               id="dropdownButton2"
               data-dropdown-toggle="dropdownDivider"
-              class="text-slate-500 font-bold text-md inline-flex items-center"
+              class="text-slate-500 dark:text-white font-bold text-md inline-flex items-center"
               type="button"
               aria-hidden="true"
             >
               <span>Change Mode</span
               ><i
-                class="fa-solid fa-chevron-down text-[9px] ml-2 text-slate-500 font-semibold"
+                class="fa-solid fa-chevron-down text-[9px] ml-2 text-slate-500 dark:text-white font-semibold"
               ></i>
             </button>
             <!-- Dropdown menu -->
             <div
-              class="hidden absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+              class="hidden absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white dark:shadow-blue-500 dark:bg-slate-800 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
               role="menu "
               aria-orientation="vertical"
               aria-labelledby="menu-button"
               tabindex="-1"
               id="dropdownMenu2"
             >
-            <div class="flex items-center justify-start scale-50">
-              <button
-                id="dark-switch"
-                onclick="toggleTheme()"
-                class="border border-slate-500 w-[85px] flex items-center transition duration-200 rounded-full m-2 bg-slate-800 p-1"
-              >
-                <div
-                  id="dark-switch-icon"
-                  class="bg-slate-50 w-8 h-8 rounded-full transform transition duration-200 flex justify-center items-center"
-                >
-                  <i class="fa-regular fa-sun"></i>
-                </div>
-                <h6 id="dark-text" class="text-slate-300 translate-x-1 font-bold">
-                  OFF
-                </h6>
-              </button>
-            </div>
-            </div>
-          </div>
-          <h2
-            class="hover:text-slate-400 text-md cursor-pointer duration-300 font-bold text-slate-500"
-          >
-            RSS
-          </h2>
-        </div>
-        <div id="openMenu" class="md:hidden">
-          <i class="fa-solid fa-bars text-xl"></i>
-        </div>
-        <div
-          class="hidden md:hidden fixed bg-white left-0 top-10 w-full h-auto px-5 py-10 shadow-2xl animate__animated duration-50 z-40"
-          id="mobileMenu"
-        >
-          <div class="absolute top-5 right-5" id="closeMenu">
-            <i class="fa-solid fa-xmark text-2xl"></i>
-          </div>
-          <div class="space-y-8">
-            <div>
-              <h2 class="mb-3 font-semibold text-2xl">Categories</h2>
-              <ul class="grid grid-cols-2 gap-x-20 gap-y-5">
-                <li class="font-semibold text-slate-500">All</li>
-                <li class="font-semibold text-slate-500">Announcements</li>
-                <li class="font-semibold text-slate-500">Business</li>
-                <li class="font-semibold text-slate-500">Engineering</li>
-                <li class="font-semibold text-slate-500">Perspectives</li>
-                <li class="font-semibold text-slate-500">Product</li>
-                <li class="font-semibold text-slate-500">Stencil</li>
-                <li class="font-semibold text-slate-500">Tutorials</li>
-              </ul>
-              <div class=" flex items-center justify-between mt-10">
-              <h2  class="mb-3 font-semibold text-2xl ">Change Mode</h2>
               <div class="flex items-center justify-start scale-50">
                 <button
                   id="dark-switch"
@@ -308,34 +260,953 @@
                   >
                     <i class="fa-regular fa-sun"></i>
                   </div>
-                  <h6 id="dark-text" class="text-slate-300 translate-x-1 font-bold">
+                  <h6
+                    id="dark-text"
+                    class="text-slate-300 translate-x-1 font-bold"
+                  >
                     OFF
                   </h6>
                 </button>
               </div>
+            </div>
+          </div>
+          <h2
+            class="hover:text-slate-400 text-md cursor-pointer duration-300 font-bold text-slate-500 dark:text-white"
+          >
+            RSS
+          </h2>
+        </div>
+        <div id="openMenu" class="md:hidden">
+          <i class="fa-solid fa-bars text-xl dark:text-white"></i>
+        </div>
+        <div
+          class="hidden md:hidden fixed bg-white dark:bg-slate-900 left-0 top-10 w-full h-auto px-5 py-10 shadow-2xl animate__animated duration-50 z-40"
+          id="mobileMenu"
+        >
+          <div class="absolute top-5 right-5" id="closeMenu">
+            <i class="fa-solid fa-xmark text-2xl dark:text-white"></i>
+          </div>
+          <div class="space-y-8">
+            <div>
+              <h2 class="mb-3 font-semibold text-2xl dark:text-white">
+                Categories
+              </h2>
+              <ul class="grid grid-cols-2 gap-x-20 gap-y-5">
+                <li class="font-semibold text-slate-500 dark:text-white">
+                  All
+                </li>
+                <li class="font-semibold text-slate-500 dark:text-white">
+                  Announcements
+                </li>
+                <li class="font-semibold text-slate-500 dark:text-white">
+                  Business
+                </li>
+                <li class="font-semibold text-slate-500 dark:text-white">
+                  Engineering
+                </li>
+                <li class="font-semibold text-slate-500 dark:text-white">
+                  Perspectives
+                </li>
+                <li class="font-semibold text-slate-500 dark:text-white">
+                  Product
+                </li>
+                <li class="font-semibold text-slate-500 dark:text-white">
+                  Stencil
+                </li>
+                <li class="font-semibold text-slate-500 dark:text-white">
+                  Tutorials
+                </li>
+              </ul>
+              <div class="flex items-center justify-between mt-10">
+                <h2 class="mb-3 font-semibold text-2xl dark:text-white">
+                  Change Mode
+                </h2>
+                <div class="flex items-center justify-start scale-50">
+                  <button
+                    id="dark-switch"
+                    onclick="toggleTheme()"
+                    class="border border-slate-500 w-[85px] flex items-center transition duration-200 rounded-full m-2 bg-slate-800 p-1"
+                  >
+                    <div
+                      id="dark-switch-icon"
+                      class="bg-slate-50 w-8 h-8 rounded-full transform transition duration-200 flex justify-center items-center"
+                    >
+                      <i class="fa-regular fa-sun"></i>
+                    </div>
+                    <h6
+                      id="dark-text"
+                      class="text-slate-300 translate-x-1 font-bold"
+                    >
+                      OFF
+                    </h6>
+                  </button>
+                </div>
               </div>
             </div>
             <div>
-              <h2 class="mb-3 font-semibold text-2xl">Products</h2>
+              <h2 class="mb-3 font-semibold text-2xl dark:text-white">
+                Products
+              </h2>
               <ul class="grid grid-cols-2 gap-x-20 gap-y-5">
-                <li class="font-semibold text-slate-500">Appflow</li>
-                <li class="font-semibold text-slate-500">Capacitor</li>
-                <li class="font-semibold text-slate-500">Framework</li>
-                <li class="font-semibold text-slate-500">Enterprise SDK</li>
-                <li class="font-semibold text-slate-500">Protals</li>
+                <li class="font-semibold text-slate-500 dark:text-white">
+                  Appflow
+                </li>
+                <li class="font-semibold text-slate-500 dark:text-white">
+                  Capacitor
+                </li>
+                <li class="font-semibold text-slate-500 dark:text-white">
+                  Framework
+                </li>
+                <li class="font-semibold text-slate-500 dark:text-white">
+                  Enterprise SDK
+                </li>
+                <li class="font-semibold text-slate-500 dark:text-white">
+                  Protals
+                </li>
               </ul>
             </div>
             <div class="">
-              <h3 class="text-2xl font-semibold mb-3">Search</h3>
+              <h3 class="text-2xl font-semibold mb-3 dark:text-white">
+                Search
+              </h3>
               <i
-                class="fa-solid fa-magnifying-glass font-semibold text-slate-500"
+                class="fa-solid fa-magnifying-glass font-semibold text-slate-500 dark:text-white"
               ></i>
-            </div>
             </div>
           </div>
         </div>
       </div>
     </nav>
+
+    <!-- first section -->
+    <section class="py-10 lg:py-28 bg-white dark:bg-slate-800">
+      <div class="container mx-auto px-5 lg:px-28">
+        <div class="grid grid-cols-1 lg:grid-cols-2 lg:space-x-48 justify-between items-center">
+          <div class="">
+            <h1 class="text-3xl font-bold dark:text-white mb-10 lg:mb-0">
+              The Latest from Ionic
+            </h1>
+          </div>
+          <div class="">
+            <div
+              class="border dark:border-blue-500 p-2 border-black rounded-md flex items-center"
+            >
+              <i
+                class="fa-solid fa-square-envelope text-3xl dark:text-blue-500"
+              ></i>
+              <input
+                type="text"
+                placeholder="Your@email.com"
+                class="ml-5 bg-transparent dark:text-blue-500 focus:outline-none font-bold dark:placeholder-blue-500 placeholder-black"
+              />
+              <button
+                class="px-3 py-1 rounded-lg bg-slate-900 dark:bg-blue-500 text-white font-bold hover:bg-slate-300 duration-500 hover:text-black"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="mt-16 overflow-hidden rounded-3xl relative hidden lg:block">
+          <img
+            src="/assest/img/blog/ionic7.0beta-feature-image-1536x768.png"
+            alt=""
+            class="hover:scale-105 duration-500 cursor-pointer"
+          />
+          <div class="flex items-center space-x-10 absolute top-16 left-16">
+            <div
+              class="p-1 border-r-2 border-slate-200 pr-7 font-bold text-white"
+            >
+              February 1,2023
+            </div>
+            <div
+              class="p-1 border-r-2 border-slate-200 pr-7 font-bold text-white"
+            >
+              Announcements
+            </div>
+            <div
+              class="p-1 border-r-2 border-slate-200 pr-7 font-bold text-white"
+            >
+              Product
+            </div>
+            <div
+              class="p-1 border-r-2 border-slate-200 pr-7 font-bold text-white"
+            >
+              Framework
+            </div>
+            <div
+              class="p-1 border-r-2 border-slate-200 pr-7 font-bold text-white"
+            >
+              Ionic
+            </div>
+          </div>
+          <h1 class="text-4xl text-white left-16 top-32 absolute font-bold">
+            Announcing The Ionic 7 Beta
+          </h1>
+          <div class="flex items-center space-x-5 absolute left-16 top-48">
+            <img
+              src="/assest/img/blog/ZNK4lRAJ_400x400-150x150 (1).jpg"
+              alt=""
+              class="w-14 h-14 rounded-full"
+            />
+            <p class="font-bold text-white text-md">Liam DeBesai</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- second section -->
+    <section class="py-10 lg:py-28 bg-white dark:bg-slate-900">
+      <div class="container px-5 lg:px-28 mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-16">
+          <!-- card-one -->
+          <div class="overflow-hidden rounded-2xl mb-5 lg:mb-0">
+            <img
+              src="/assest/img/blog/appflow-and-trapeze-feature-image-1536x768.png"
+              alt=""
+              class="rounded-2xl hover:scale-110 cursor-pointer duration-500"
+            />
+            <div class="flex items-center space-x-2 my-5">
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                January 31,2023
+              </div>
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                Announcements
+              </div>
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                Product
+              </div>
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                Appflow
+              </div>
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                Trapeze
+              </div>
+            </div>
+            <h2 class="text-3xl font-bold dark:text-white">
+              Easily Automate Mobile Configuration in Appflow with Trapeze
+            </h2>
+            <div class="mt-12 flex items-center space-x-5">
+              <img
+                src="/assest/img/blog/mattnetkow-150x150.jpg"
+                alt=""
+                class="w-12 h-12 rounded-full"
+              />
+              <p class="font-bold text-lg dark:text-white">Matt Netkow</p>
+            </div>
+          </div>
+          <!-- card-two -->
+          <div class="overflow-hidden rounded-2xl">
+            <img
+              src="/assest/img/blog/rerunbuild-featureimage-1536x768.png"
+              alt=""
+              class="rounded-2xl hover:scale-110 cursor-pointer duration-500"
+            />
+            <div class="flex items-center space-x-2 my-5">
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                January 30,2023
+              </div>
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                Announcements
+              </div>
+              <div class="p-1 text-sm font-bold text-slate-500 dark:text-white">
+                Appflow
+              </div>
+            </div>
+            <h2 class="text-3xl font-bold dark:text-white">
+              Rerun cloud builds in CI/CD with Appflow
+            </h2>
+            <div class="mt-12 flex items-center space-x-5">
+              <img
+                src="/assest/img/blog/IMG_4815-150x150.jpeg"
+                alt=""
+                class="w-12 h-12 rounded-full"
+              />
+              <div class="flex flex-col">
+                <p class="font-bold text-lg dark:text-white">
+                  Cecelia Martinez
+                </p>
+                <p class="text-sm text-slate-500 dark:text-white font-bold">
+                  Developer Adopocate
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- third section -->
+    <section class="py-10 lg:py-28 bg-white dark:bg-slate-800">
+      <div class="container mx-auto px-5 lg:px-28">
+        <div
+          class="lg:border lg:border-slate-500 dark:border-blue-500 p-2 lg:p-20 rounded-xl lg:rounded-3xl dark:bg-slate-900 dark:shadow-xl dark:shadow-blue-500"
+        >
+          <div class="flex flex-col lg:flex-row justify-between items-center">
+            <h1
+              class="text-slate-500 dark:text-blue-500 max-w-sm text-3xl font-bold mb-10 lg:mb-0"
+            >
+              Never miss an update.
+              <span class="text-black dark:text-white">
+                Join our newsletter!</span
+              >
+            </h1>
+            <div class="">
+              <div
+                class="border dark:border-blue-500 p-2 border-black rounded-md flex items-center"
+              >
+                <i
+                  class="fa-solid fa-square-envelope text-3xl dark:text-blue-500"
+                ></i>
+                <input
+                  type="text"
+                  placeholder="Your@email.com"
+                  class="ml-5 bg-transparent dark:text-blue-500 focus:outline-none font-bold dark:placeholder-blue-500 placeholder-black"
+                />
+                <button
+                  class="px-3 py-1 rounded-lg bg-slate-900 dark:bg-blue-500 text-white font-bold hover:bg-slate-300 duration-500 hover:text-black"
+                >
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- fouth section -->
+    <section class="py-10 lg:py-28 bg-white dark:bg-slate-900">
+      <div class="container px-5 lg:px-28 mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+          <!-- card-one -->
+          <div class="overflow-hidden rounded-2xl mb-10 lg:mb-0">
+            <img
+              src="/assest/img/blog/stencil3-feature-image-1536x768.png"
+              alt=""
+              class="rounded-2xl hover:scale-110 cursor-pointer duration-500"
+            />
+            <div class="flex items-center space-x-2 my-5">
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                January 25,2023
+              </div>
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                All
+              </div>
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                Announcements
+              </div>
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                Stencil
+              </div>
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                stencil
+              </div>
+            </div>
+            <h2 class="text-3xl font-bold dark:text-white">
+              Announcing Stencil 3
+            </h2>
+            <div class="mt-12 flex items-center space-x-5">
+              <img
+                src="/assest/img/blog/ZNK4lRAJ_400x400-150x150 (1).jpg"
+                alt=""
+                class="w-12 h-12 rounded-full"
+              />
+              <p class="font-bold text-lg dark:text-white">Ryan Waskiewicz</p>
+            </div>
+          </div>
+          <!-- card-two -->
+          <div class="overflow-hidden rounded-2xl">
+            <img
+              src="/assest/img/blog/superapps-feature-image-1-1536x768.png"
+              alt=""
+              class="rounded-2xl hover:scale-110 cursor-pointer duration-500"
+            />
+            <div class="flex items-center space-x-2 my-5">
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                January 18,2023
+              </div>
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                All
+              </div>
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                Perspectives
+              </div>
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                Portals
+              </div>
+              <div class="p-1 text-sm font-bold text-slate-500 dark:text-white">
+                superapps
+              </div>
+            </div>
+            <h2 class="text-3xl font-bold dark:text-white">
+              How the Web Enables Building Superapps
+            </h2>
+            <div class="mt-12 flex items-center space-x-5">
+              <img
+                src="/assest/img/blog/christine-perez-150x150.png"
+                alt=""
+                class="w-12 h-12 rounded-full"
+              />
+              <div class="flex flex-col">
+                <p class="font-bold text-lg dark:text-white">Jacklin Altman</p>
+                <p class="text-sm text-slate-500 dark:text-white font-bold">
+                  Content Marketing Manager
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- fifth section -->
+    <section class="py-10 lg:py-20 bg-white dark:bg-slate-800">
+      <div class="container mx-auto px-5 lg:px-28">
+        <h1 class="text-3xl font-bold dark:text-white">More from the Blog</h1>
+        <div class="grid grid-cols-1 lg:grid-cols-3 mt-10 gap-10">
+          <!-- card-one -->
+          <div class="overflow-hidden rounded-2xl">
+            <img
+              src="/assest/img/blog/trapeze-ionic-feature-image-1536x768.png"
+              alt=""
+              class="rounded-2xl hover:scale-110 cursor-pointer duration-500"
+            />
+            <div class="flex items-center space-x-2 my-5">
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                January 12,2023
+              </div>
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                All
+              </div>
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                Announcements
+              </div>
+              <div
+                class="p-1 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                Produc...
+              </div>
+            </div>
+            <h2 class="text-xl font-bold dark:text-white">
+              Introducing Trapeze: Easy iOS and Android Project Configuration
+            </h2>
+          </div>
+          <!-- card-two -->
+          <div class="overflow-hidden rounded-2xl">
+            <img
+              src="/assest/img/blog/auth-feature-image-1536x768.png"
+              alt=""
+              class="rounded-2xl hover:scale-110 cursor-pointer duration-500"
+            />
+            <div class="flex items-center space-x-2 my-5">
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                January 11,2023
+              </div>
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                All
+              </div>
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                Perspectives
+              </div>
+              <div
+                class="p-1 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                Auth Conn...
+              </div>
+            </div>
+            <h2 class="text-xl font-bold dark:text-white">
+              No one cares about your authentication flow…until you get it wrong
+            </h2>
+          </div>
+          <!-- card-three -->
+          <div class="overflow-hidden rounded-2xl">
+            <img
+              src="/assest/img/blog/appflow-native-ios-android-feature-image-1536x768.png"
+              alt=""
+              class="rounded-2xl hover:scale-110 cursor-pointer duration-500"
+            />
+            <div class="flex items-center space-x-2 my-5">
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                January 5,2023
+              </div>
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                Announcements
+              </div>
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                Android
+              </div>
+              <div
+                class="p-1 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                A...
+              </div>
+            </div>
+            <h2 class="text-xl font-bold dark:text-white">
+              Appflow adds support for traditional native iOS and Android apps
+            </h2>
+          </div>
+          <!-- card-four -->
+          <div class="overflow-hidden rounded-2xl">
+            <img
+              src="/assest/img/blog/webviews-feature-image-1-1536x768.png"
+              alt=""
+              class="rounded-2xl hover:scale-110 cursor-pointer duration-500"
+            />
+            <div class="flex items-center space-x-2 my-5">
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                January 3,2023
+              </div>
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                All
+              </div>
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                Perspectives
+              </div>
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                Portals
+              </div>
+              <div class="p-1 text-sm font-bold text-slate-500 dark:text-white">
+                ...
+              </div>
+            </div>
+            <h2 class="text-xl font-bold dark:text-white">
+              Limitations with iOS and Android Web Views
+            </h2>
+          </div>
+          <!-- card-five -->
+          <div class="overflow-hidden rounded-2xl">
+            <img
+              src="/assest/img/blog/newlogin-feature-image-1536x768.png"
+              alt=""
+              class="rounded-2xl hover:scale-110 cursor-pointer duration-500"
+            />
+            <div class="flex items-center space-x-2 my-5">
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                December 20,2022
+              </div>
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                All
+              </div>
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                Appflow
+              </div>
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                Ionic
+              </div>
+              <div class="p-1 text-sm font-bold text-slate-500 dark:text-white">
+                Por...
+              </div>
+            </div>
+            <h2 class="text-xl font-bold dark:text-white">
+              A Fresh New Way To Access Your Ionic Account
+            </h2>
+          </div>
+          <!-- card-six -->
+          <div class="overflow-hidden rounded-2xl">
+            <img
+              src="/assest/img/blog/stencil3-0-feature-image-1536x768.png"
+              alt=""
+              class="rounded-2xl hover:scale-110 cursor-pointer duration-500"
+            />
+            <div class="flex items-center space-x-2 my-5">
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                December 19,2022
+              </div>
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                Stencil
+              </div>
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                Design Systems
+              </div>
+              <div class="p-1 text-sm font-bold text-slate-500 dark:text-white">
+                r...
+              </div>
+            </div>
+            <h2 class="text-xl font-bold dark:text-white">
+              Announcing Stencil v3.0 Beta
+            </h2>
+          </div>
+          <!-- card-seven -->
+          <div class="overflow-hidden rounded-2xl">
+            <img
+              src="/assest/img/blog/q4showrecap-feature-image-1536x768.png"
+              alt=""
+              class="rounded-2xl hover:scale-110 cursor-pointer duration-500"
+            />
+            <div class="flex items-center space-x-2 my-5">
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                December 15,2022
+              </div>
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                All
+              </div>
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                Announcements
+              </div>
+              <div
+                class="p-1 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                Ioni...
+              </div>
+            </div>
+            <h2 class="text-xl font-bold dark:text-white">
+              Q4 Ionic Show Recap
+            </h2>
+          </div>
+          <!-- card-eight -->
+          <div class="overflow-hidden rounded-2xl">
+            <img
+              src="/assest/img/blog/mobilesecurity3-feature-image-1536x768.png"
+              alt=""
+              class="rounded-2xl hover:scale-110 cursor-pointer duration-500"
+            />
+            <div class="flex items-center space-x-2 my-5">
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                December 15,2022
+              </div>
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                All
+              </div>
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                Perspectives
+              </div>
+              <div class="p-1 text-sm font-bold text-slate-500 dark:text-white">
+                Ionic En...
+              </div>
+            </div>
+            <h2 class="text-xl font-bold dark:text-white">
+              Get Proactive About Data Security
+            </h2>
+          </div>
+          <!-- card-nine -->
+          <div class="overflow-hidden rounded-2xl">
+            <img
+              src="/assest/img/blog/framework6-4-feature-image-1536x768.png"
+              alt=""
+              class="rounded-2xl hover:scale-110 cursor-pointer duration-500"
+            />
+            <div class="flex items-center space-x-2 my-5">
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                December12,2022
+              </div>
+              <div
+                class="p-1 border-r-2 border-slate-500 dark:border-white text-sm font-bold text-slate-500 dark:text-white"
+              >
+                Announcements
+              </div>
+              <div class="p-1 text-sm font-bold text-slate-500 dark:text-white">
+                Frame...
+              </div>
+            </div>
+            <h2 class="text-xl font-bold dark:text-white">
+              Announcing Ionic v6.4
+            </h2>
+          </div>
+        </div>
+        <hr class="mt-16 text-black border" />
+        <div class="container mx-auto px-4 mt-16 hidden lg:block">
+          <nav
+            class="flex flex-row flex-nowrap justify-between md:justify-center items-center"
+            aria-label="Pagination"
+          >
+            <a
+              class="flex w-10 h-10 mr-1 justify-center items-center rounded-full border border-gray-200 bg-white text-black hover:border-gray-300"
+              href="#"
+              title="Previous Page"
+            >
+              <span class="sr-only">Previous Page</span>
+              <svg
+                class="block w-4 h-4 fill-current"
+                viewBox="0 0 256 512"
+                aria-hidden="true"
+                role="presentation"
+              >
+                <path
+                  d="M238.475 475.535l7.071-7.07c4.686-4.686 4.686-12.284 0-16.971L50.053 256 245.546 60.506c4.686-4.686 4.686-12.284 0-16.971l-7.071-7.07c-4.686-4.686-12.284-4.686-16.97 0L10.454 247.515c-4.686 4.686-4.686 12.284 0 16.971l211.051 211.05c4.686 4.686 12.284 4.686 16.97-.001z"
+                ></path>
+              </svg>
+            </a>
+            <a
+              class="hidden md:flex w-10 h-10 mx-1 justify-center items-center rounded-full border border-gray-200 bg-white text-black hover:border-gray-300"
+              href="#"
+              title="Page 1"
+            >
+              1
+            </a>
+            <a
+              class="hidden md:flex w-10 h-10 mx-1 justify-center items-center rounded-full border border-gray-200 bg-white text-black hover:border-gray-300"
+              href="#"
+              title="Page 2"
+            >
+              2
+            </a>
+            <a
+              class="hidden md:flex w-10 h-10 mx-1 justify-center items-center rounded-full border border-black bg-black text-white pointer-events-none"
+              href="#"
+              aria-current="page"
+              title="Page 3"
+            >
+              3
+            </a>
+            <a
+              class="hidden md:flex w-10 h-10 mx-1 justify-center items-center rounded-full border border-gray-200 bg-white text-black hover:border-gray-300"
+              href="#"
+              title="Page 4"
+            >
+              4
+            </a>
+            <a
+              class="hidden md:flex w-10 h-10 mx-1 justify-center items-center rounded-full border border-gray-200 bg-white text-black hover:border-gray-300"
+              href="#"
+              title="Page 5"
+            >
+              5
+            </a>
+            <a
+              class="flex w-10 h-10 ml-1 justify-center items-center rounded-full border border-gray-200 bg-white text-black hover:border-gray-300"
+              href="#"
+              title="Next Page"
+            >
+              <span class="sr-only">Next Page</span>
+              <svg
+                class="block w-4 h-4 fill-current"
+                viewBox="0 0 256 512"
+                aria-hidden="true"
+                role="presentation"
+              >
+                <path
+                  d="M17.525 36.465l-7.071 7.07c-4.686 4.686-4.686 12.284 0 16.971L205.947 256 10.454 451.494c-4.686 4.686-4.686 12.284 0 16.971l7.071 7.07c4.686 4.686 12.284 4.686 16.97 0l211.051-211.05c4.686-4.686 4.686-12.284 0-16.971L34.495 36.465c-4.686-4.687-12.284-4.687-16.97 0z"
+                ></path>
+              </svg>
+            </a>
+          </nav>
+        </div>
+      </div>
+    </section>
+
+     <!-- sixth section -->
+     <section class="py-10 lg:py-28 bg-white dark:bg-slate-900">
+      <div class="container mx-auto px-5 lg:px-28">
+        <div
+          class="lg:border lg:border-slate-500 dark:border-blue-500 p-5 lg:p-20 rounded-3xl lg:bg-slate-100 lg:dark:bg-slate-800 dark:shadow-xl dark:shadow-blue-500"
+        >
+          <div class="flex flex-col lg:flex-row justify-between items-center">
+            <h1
+              class="text-slate-500 dark:text-blue-500 max-w-sm text-xl lg:text-3xl font-bold mb-10 lg:mb-0"
+            >
+              Never miss an update.
+              <span class="text-black dark:text-white">
+                Join our newsletter!</span
+              >
+            </h1>
+            <div class="">
+              <div
+                class="border dark:border-blue-500 p-2 border-black rounded-md flex items-center"
+              >
+                <i
+                  class="fa-solid fa-square-envelope text-3xl dark:text-blue-500"
+                ></i>
+                <input
+                  type="text"
+                  placeholder="Your@email.com"
+                  class="ml-5 bg-transparent dark:text-blue-500 focus:outline-none font-bold dark:placeholder-blue-500 placeholder-black"
+                />
+                <button
+                  class="px-3 py-1 rounded-lg bg-slate-900 dark:bg-blue-500 text-white font-bold hover:bg-slate-300 duration-500 hover:text-black"
+                >
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr>
+
+     <!-- footer -->
+     <footer class="py-28 bg-white dark:bg-slate-800">
+      <div class="px-3 md:px-5 lg:px-20 space-y-10">
+        <div
+          class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-10 md:gap-5 text-start md:text-start"
+        >
+          <div class="">
+            <a href="/index.html" class="flex items-center space-x-3">
+              <i class="fa-solid fa-circle-dot dark:text-white text-3xl"></i>
+              <span class="text-xl font-bold dark:text-white">Ionic</span>
+            </a>
+          </div>
+          <div>
+            <h4 class="text-black dark:text-white font-bold mb-1">The Platform</h4>
+            <ul class="space-y-1">
+              <li class="text-slate-500 font-semibold">Overview</li>
+              <li class="text-slate-500 font-semibold">Build</li>
+              <li class="text-slate-500 font-semibold">Secure</li>
+              <li class="text-slate-500 font-semibold">Deliver</li>
+              <li class="text-slate-500 font-semibold">Why Ionic?</li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-black font-bold dark:text-white mb-1">Products</h4>
+            <ul class="space-y-1">
+              <li class="text-slate-500 font-semibold">Framework</li>
+              <li class="text-slate-500 font-semibold">Capacitor</li>
+              <li class="text-slate-500 font-semibold">Appflow</li>
+              <li class="text-slate-500 font-semibold">Identity Vault</li>
+              <li class="text-slate-500 font-semibold">Secure Storage</li>
+              <li class="text-slate-500 font-semibold">Auth Connect</li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-black font-bold dark:text-white mb-1">Resources</h4>
+            <ul class="space-y-1">
+              <li class="text-slate-500 font-semibold">Resource Center</li>
+              <li class="text-slate-500 font-semibold">Blog</li>
+              <li class="text-slate-500 font-semibold">Articles</li>
+              <li class="text-slate-500 font-semibold">Webinars</li>
+              <li class="text-slate-500 font-semibold">Case Studies</li>
+              <li class="text-slate-500 font-semibold">Videos</li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-black font-bold mb-1 dark:text-white">Company</h4>
+            <ul class="space-y-1">
+              <li class="text-slate-500 font-semibold">About us</li>
+              <li class="text-slate-500 font-semibold">Customers</li>
+              <li class="text-slate-500 font-semibold">Brand</li>
+              <li class="text-slate-500 font-semibold">Contact</li>
+              <li class="text-slate-500 font-semibold">Carrers</li>
+              <li class="text-slate-500 font-semibold">Privacy</li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-black font-bold mb-1 dark:text-white">Support</h4>
+            <ul class="space-y-1">
+              <li class="text-slate-500 font-semibold">Help center</li>
+              <li class="text-slate-500 font-semibold">Partners</li>
+              <li class="text-slate-500 font-semibold">Advisory</li>
+              <li class="text-slate-500 font-semibold">Enterprise Guide</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <div
+          class="flex justify-between flex-col space-y-5 md:space-y-0 md:flex-row"
+        >
+          <div class="space-x-6">
+            <span class="text-slate-500 text-md font-bold dark:text-white"
+              >Copyright © 2022 Ionic</span
+            >
+            <span
+              class="text-slate-500 text-md font-bold dark:text-white hover:text-slate-700 cursor-pointer"
+              >Terms</span
+            >
+            <span
+              class="text-slate-500 text-md font-bold dark:text-white hover:text-slate-700 cursor-pointer"
+              >Pravicy</span
+            >
+          </div>
+          <div class="text-slate-500 space-x-3">
+            <i
+              class="fa-brands fa-twitter hover:text-slate-700 duration-500 dark:hover:text-white cursor-pointer"
+            ></i>
+            <i
+              class="fa-brands fa-github hover:text-slate-700 duration-500 dark:hover:text-white cursor-pointer"
+            ></i>
+            <i
+              class="fa-brands fa-facebook hover:text-slate-700 duration-500 dark:hover:text-white cursor-pointer"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script src="/assest/js/blog.js"></script>
   </body>
