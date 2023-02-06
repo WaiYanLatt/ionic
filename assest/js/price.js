@@ -128,28 +128,3 @@ var waypoint = new Waypoint({
   },
   offset: "20%",
 });
-
-//dropdown
-const accordionBrain = document.querySelectorAll('.accordion-brain');
-const accordionContent = document.querySelector('.accordion-content');
-const downButton = document.querySelector('.downButton');
-const upButton = document.querySelector('.upButton');
-
-accordionBrain.forEach((accordionBrain) => {
-    accordionBrain.addEventListener('click', (event) => {
-        accordionBrain.classList.toggle('active-brain');
-        const downButton = accordionBrain.nextElementSibling;
-        const upButton = accordionBrain.nextElementSibling;
-        const accordionContent = accordionBrain.nextElementSibling;
-
-        if (accordionBrain.classList.contains('active-brain')) {
-            downButton.classList.remove('hidden');
-            upButton.classList.add('hidden');
-            accordionContent.classList.add('hidden');
-        } else {
-            downButton.classList.add('hidden');
-            upButton.classList.remove('hidden');
-            accordionContent.classList.remove('hidden');
-        }
-    });
-});
